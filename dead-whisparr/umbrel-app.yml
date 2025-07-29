@@ -28,7 +28,7 @@ gallery:
   - https://i.imgur.com/5I9HyN7.png
   - https://i.imgur.com/sqHB16o.png
   - https://i.imgur.com/QSJLSzW.png
-path: "https://umbrel.local:6969"
+path: "http://umbrel.local:6969"
 releaseNotes: >-
   Full release notes for Whisparr are available at https://github.com/Whisparr/Whisparr
 defaultUsername: ""
