@@ -27,8 +27,8 @@ services:
       - ${APP_DATA_DIR}/data/config:/config
       - ${UMBREL_ROOT}/data/storage/downloads:/downloads
     environment:
-      APP_ID: "whisparr"
-      APP_URL: "http://whisparr_server_1:6969"
+      APP_ID: "dead-whisparr"
+      APP_URL: "http://dead-whisparr_server_1:6969"
       TRANSMISSION_HOST: "transmission_server_1"
       TRANSMISSION_PORT: 9091
       ROOT_FOLDER: "/downloads/movies"
