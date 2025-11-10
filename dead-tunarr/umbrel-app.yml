@@ -1,0 +1,32 @@
+manifestVersion: 1.1
+id: dead-tunarr
+category: media
+name: Tunarr
+icon: https://i.imgur.com/78fdce7.png
+version: "0.22.13"
+tagline: Create a classic TV experience using your own media
+description: >-
+  Create and configure live TV channels using media on your Plex, Jellyfin, or Emby servers.
+
+  Access your channels by adding the spoofed Tunarr HDHomerun tuner to Plex, Jellyfin, or Emby. Or utilize the m3u URL with any IPTV player app (we love UHF and Tivimate).
+developer: chrisbenincasa
+website: https://tunarr.com/
+dependencies:
+  - jellyfin
+repo: https://github.com/chrisbenincasa/tunarr
+support: https://github.com/chrisbenincasa/tunarr/issues
+port: 8069
+gallery:
+  - https://i.imgur.com/S4I3G1D.png
+  - https://i.imgur.com/nWdwqL9.png
+path: "http://umbrel.local:8069"
+releaseNotes: >-
+  Full release notes for Whisparr are available at https://github.com/chrisbenincasa/tunarr
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+  - GPU
+submitter: assada
+submission: https://github.com/assada/umbrel-apps
