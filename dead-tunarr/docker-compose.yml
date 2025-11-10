@@ -1,14 +1,10 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: dead-tunarr_server_1
-      APP_PORT: 8069
-      PROXY_AUTH_WHITELIST: "/stream/*"
-
   server:
     image: chrisbenincasa/tunarr:latest
+    ports:
+      - 8096:8069
     environment:
       - TUNARR_SERVER_PORT=8069
       - PUID=1000
